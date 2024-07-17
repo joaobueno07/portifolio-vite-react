@@ -1,6 +1,5 @@
 import { useState } from 'react';
 
-
 export default function Menu() {
 
     const [ width ] = useState(window.innerWidth);
@@ -35,7 +34,10 @@ export default function Menu() {
                     <li>
                         <a href="https://www.github.com/joaobueno07">Github</a>
                     </li>
-                </ul>) : (
+                </ul>
+                
+                ) : (
+                    
                     <div>
                         <div>
                             <img id='profile' src="/photo_profile.png"/>
